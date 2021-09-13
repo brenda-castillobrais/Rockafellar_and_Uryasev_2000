@@ -5,7 +5,7 @@ I start by generating synthetic financial returns assuming that they follow a mu
 
 Both optimization formulations yield to similar results; however, the non-linear programming is much faster than the linear programming.
 
-The main output of the optimization problem is the vector of weigths that minimize the portfolio risk (measured by the expected shortfall). Then, those weights are used to compute tomorrow's expected returns, which are required to plot the efficient frontier.
+The main output of the optimization problem is the vector of weigths that minimize portfolio's risk (measured by the expected shortfall). Then, those weights are used to compute tomorrow's expected returns, which are required to plot the efficient frontier.
 
 ## Efficient frontier
 I provide the efficient frontier using both formulations.
