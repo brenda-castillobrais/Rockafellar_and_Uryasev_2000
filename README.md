@@ -1,7 +1,7 @@
 # Rockafellar and Uryasev (2000)
 An application of the paper "Rockafellar, R. and S. Uryasev (2000). “Optimization of conditional value-at risk.” Journal of Risk 3: 21-41".
 
-I start by generating synthetic financial returns assuming that they follow a multivariate Gaussian distribution. This is a simplifying assumption so that we focus in the optimization process. The most important thing here is to illustrate the optimization problem and how to solve it in R using either a linear or non-linear programming formulation.
+I start by generating synthetic financial returns series assuming that they follow a multivariate Gaussian distribution. This is a simplifying assumption so that we focus in the optimization process. The most important thing here is to illustrate the optimization problem and how to solve it in R using either a linear or non-linear programming formulation.
 
 Both formulations yield similar results; however, the non-linear programming is much faster than the linear programming.
 
